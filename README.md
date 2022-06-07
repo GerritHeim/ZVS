@@ -1,5 +1,5 @@
 # ZVS @ UB JCS
-Module für den Zweitveröffentlichungsservice Workflow mit OpenRefine, der an der UB J.C. Senckenberg in Frankfurt im Einsatz ist. (UB JCS)
+**Module** für den Zweitveröffentlichungsservice Workflow mit OpenRefine, der an der UB J.C. Senckenberg in Frankfurt im Einsatz ist. (UB JCS)
 
  1. Citavi
  1. Metadaten über Crossref
@@ -7,12 +7,14 @@ Module für den Zweitveröffentlichungsservice Workflow mit OpenRefine, der an d
  1. OAEZB
  1. Sherpa Romeo
  
-Optionale Module für Metadatenakquise vor Import:
+**Optionale Module** für Metadatenakquise vor Import:
 1. arXiv
 1. CORE
 1. Crossref
 1. Pubmed
 1. Springer
+
+In **Module ohne DOI** befinden sich kleine Hilfstellungen für die Weiterarbeitung von Titeln ohne DOI mit Citavi und OpenRefine und die automatische Vorbereitung der Tabelle für die Rechteprüfung. 
  
 Bei Automatisierung (JSON Export nach erfolgreichem Durchlauf) beachten, dass die Module in der gleichen Reihenfolge durchlaufen werden müssen, da OpenRefine vorherige Änderungen voraussetzt. Die Nummierung ist eine Empfehlung, die sich in der Praxis bewährt hat.
 
