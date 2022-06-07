@@ -12,7 +12,7 @@ Die Anfrage kann auf Basis der DOI oder der ISSN erfolgen:
 * Wichtig: On Error: store error
 
 ````
-'https://ezb.ur.de/api/oa_rights?bibid=ubff&doi=' + trim(cells.DOI.value) + '&format=application/json'
+'https://ezb.ur.de/api/oa_rights?bibid=ub...&doi=' + trim(cells.DOI.value) + '&format=application/json'
 ````
 
 **ODER**
@@ -23,7 +23,7 @@ Die Anfrage kann auf Basis der DOI oder der ISSN erfolgen:
 * Wichtig: Throttle delay 1000 ms
 * Wichtig: On Error: store error
 ```
-'https://ezb.ur.de/api/oa_rights?bibid=ubff&issn=' + trim(cells.ISSN.value) + '&format=application/json'
+'https://ezb.ur.de/api/oa_rights?bibid=ub...&issn=' + trim(cells.ISSN.value) + '&format=application/json'
 ```
 
 * eISSN -> Edit column -> Add column by fetching URLs ... -> OAEZB_eISSN
@@ -31,7 +31,7 @@ Die Anfrage kann auf Basis der DOI oder der ISSN erfolgen:
 * Wichtig: On Error: store error
 
 ```
-'https://ezb.ur.de/api/oa_rights?bibid=ubff&issn=' + trim(cells.eISSN.value) + '&format=application/json'
+'https://ezb.ur.de/api/oa_rights?bibid=ub...&issn=' + trim(cells.eISSN.value) + '&format=application/json'
 ```
 
 Danach müssen die Spalten OAEZB_ISSN und OAEZB_eISSN fusioniert werden.

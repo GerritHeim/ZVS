@@ -17,7 +17,7 @@ Verschiedene OA-Versionen via Repositories: https://api.unpaywall.org/v2/10.1038
 
 ```
 if(isNotNull(value),
-  'https://api.unpaywall.org/v2/' + value + '?email=openaccess@ub.uni-frankfurt.de',
+  'https://api.unpaywall.org/v2/' + value + '?email=email@domain.td',
   null
 )
 ```
