@@ -9,4 +9,4 @@ Module für den Zweitveröffentlichungsservice Workflow mit OpenRefine, der an d
 Bei Automatisierung (JSON Export nach erfolgreichem Durchlauf) beachten, dass die Module in der gleichen Reihenfolge durchlaufen werden müssen, da OpenRefine vorherige Änderungen voraussetzt. Die Nummierung ist eine Empfehlung, die sich in der Praxis bewährt hat.
 
 ## Anmerkungen
-Anpassung und Nachnutzung von [tuub/oagreenservice](https://github.com/tuub/oagreenservice) von [Michaela Voigt](https://github.com/michaelavoigt)  und [Sebastian Dittmann](https://github.com/sebDit), Kontakt openaccess@ub.tu-berlin.de.
+Der vorliegende Workflow basiert auf Anpassung und Nachnutzung von [tuub/oagreenservice](https://github.com/tuub/oagreenservice) von [Michaela Voigt](https://github.com/michaelavoigt)  und [Sebastian Dittmann](https://github.com/sebDit). Änderungen betreffen vor allem die Unterschiede bei einem OPUS-Zielrepositorium und teilweise andere Anforderungen in Frankfurt.
