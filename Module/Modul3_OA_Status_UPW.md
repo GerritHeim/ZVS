@@ -1,4 +1,5 @@
-# Open Access Status
+# Open Access Status (UPW)
+**Dieses Modul beschreibt die Abfrage direkt bei Unpaywall (UPW). Hier bekommt man mehr Informationen, aber die Daten sind schwieriger zu interpretieren. Besser aufbereitet sind die Informationen über die Abfrage in OpenAlex.**
 
 Die Abfrage an Unpaywall erfolgt, um den OA-Status einer Publikation zu ermitteln und ggf. andere auf Repositorien verfügbare Versionen zu identifizieren, die für eine Zweitveröffentlichung auf DepositOnce nachgenutzt werden könnten.
 
